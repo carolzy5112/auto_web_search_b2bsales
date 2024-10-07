@@ -1,0 +1,7 @@
+url: "https://api.sambanova.ai/v1/chat/completions" #  set either sambastudio or sncloud
+model: "llama3-405b" 
+
+prod_mode: False
+
+extra_loaders:
+    - "pdf"
